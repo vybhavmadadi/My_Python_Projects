@@ -55,4 +55,4 @@ import requests
 #Adding timeouts to not wait until long for you to get response
 # r = requests.get('https://httpbin.org/delay/1', timeout=3) #URL used here responds after 1 sec
 r = requests.get('https://httpbin.org/delay/5', timeout=3) #URL used here responds after 5 sec
-print(r)
+print(r.text)
